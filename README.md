@@ -1,3 +1,4 @@
+![img.png](img.png)
 # Pomocnicy
 
 W trakcie pracy nad zadaniami (ćwiczeniami), będziecie spotykać się z różnymi pomocnikami, którzy będą wskazywać, co należy zrobić w danym fragmencie kodu. Im dalsze ćwiczenie, tym rzadziej będą się pojawiać. Oto krótka charakterystyka każdego z nich:
