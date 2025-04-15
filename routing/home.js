@@ -1,16 +1,7 @@
 const express = require("express");
-
-const { MENU_LINKS } = require("../constants/navigation");
-
 const router = express.Router();
+const homeController = require("../controllers/homeController");
 
-router.get("/", (_request, response) => {
-  response.render("home.ejs", {
-    headTitle: "Shop - Home",
-    path: "/",
-    activeLinkPath: "/",
-    menuLinks: MENU_LINKS,
-  });
-});
+router.get("/", homeController.getHomeView);
 
 module.exports = router;
